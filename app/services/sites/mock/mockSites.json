@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 14.5995,
+    "longitude": 120.9842,
+    "description": "A stagnant water pool near a construction site.",
+    "detectionTime": "2024-12-28T10:15:30Z",
+    "userId": "user123",
+    "status": "unconfirmed",
+    "createdAt": "2024-12-28T10:00:00Z",
+    "updatedAt": "2024-12-28T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 13.7563,
+    "longitude": 121.0583,
+    "description": "A clogged drainage system in a residential area.",
+    "detectionTime": "2024-12-27T14:30:45Z",
+    "userId": "user456",
+    "status": "confirmed",
+    "createdAt": "2024-12-27T14:00:00Z",
+    "updatedAt": "2024-12-27T15:00:00Z"
+  },
+  {
+    "id": "3",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 10.3157,
+    "longitude": 123.8854,
+    "description": "A temporary water site in a farming field.",
+    "detectionTime": "2024-12-26T09:45:00Z",
+    "userId": "user789",
+    "status": "resolved",
+    "createdAt": "2024-12-26T09:00:00Z",
+    "updatedAt": "2024-12-27T16:00:00Z"
+  },
+  {
+    "id": "4",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 16.4023,
+    "longitude": 120.596,
+    "description": "A natural container near a forested area.",
+    "detectionTime": "2024-12-25T11:20:30Z",
+    "userId": "user321",
+    "status": "unconfirmed",
+    "createdAt": "2024-12-25T11:00:00Z",
+    "updatedAt": "2024-12-25T11:00:00Z"
+  },
+  {
+    "id": "5",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 8.9678,
+    "longitude": 125.4092,
+    "description": "Standing water collected in old tires at a waste site.",
+    "detectionTime": "2024-12-24T13:50:15Z",
+    "userId": "user654",
+    "status": "confirmed",
+    "createdAt": "2024-12-24T13:00:00Z",
+    "updatedAt": "2024-12-25T14:30:00Z"
+  },
+  {
+    "id": "6",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 15.2993,
+    "longitude": 120.8487,
+    "description": "A pool of water formed by a leaking pipe.",
+    "detectionTime": "2024-12-23T15:00:45Z",
+    "userId": "user987",
+    "status": "resolved",
+    "createdAt": "2024-12-23T14:00:00Z",
+    "updatedAt": "2024-12-24T08:00:00Z"
+  },
+  {
+    "id": "7",
+    "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "latitude": 11.0046,
+    "longitude": 124.6057,
+    "description": "A broken water tank in a backyard.",
+    "detectionTime": "2024-12-22T16:30:00Z",
+    "userId": "user111",
+    "status": "unconfirmed",
+    "createdAt": "2024-12-22T16:00:00Z",
+    "updatedAt": "2024-12-22T16:00:00Z"
+  }
+]

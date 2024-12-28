@@ -1,0 +1,61 @@
+{
+  "educationalInsights": [
+    {
+      "title": "Understanding Mosquito Breeding Sites",
+      "content": "Mosquitoes lay their eggs in stagnant water or moist environments. These sites vary from natural locations like ponds to artificial areas like discarded containers.",
+      "categories": [
+        { "name": "Natural Containers", "examples": ["Tree holes", "Leaf axils", "Ponds"] },
+        { "name": "Artificial Containers", "examples": ["Discarded tires", "Plastic bottles", "Unused buckets"] },
+        { "name": "Temporary Water Sites", "examples": ["Flooded areas", "Puddles"] }
+      ],
+      "image": "https://images.pexels.com/photos/6325953/pexels-photo-6325953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "title": "Why Is It Important to Address Breeding Sites?",
+      "content": "Uncontrolled mosquito breeding can lead to health risks, environmental damage, and economic impact.",
+      "impact": [
+        { "type": "Health Risks", "details": "Spread of diseases like dengue, malaria, and chikungunya." },
+        { "type": "Environmental Damage", "details": "Disruption of ecosystems caused by invasive mosquito species." },
+        { "type": "Economic Impact", "details": "Increased medical expenses and productivity loss." }
+      ],
+      "image": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "title": "How Can You Help Prevent Mosquito Breeding?",
+      "content": "Take actionable steps to minimize breeding sites in your area.",
+      "steps": [
+        "Inspect Your Area Weekly: Check and clean water-holding items, such as buckets, pots, and old tires.",
+        "Cover and Store Properly: Keep water storage containers tightly covered.",
+        "Dispose of Trash Properly: Recycle or throw away containers that can collect water.",
+        "Drain and Dry: Remove standing water in plant saucers, drainage areas, and outdoor furniture.",
+        "Support Community Initiatives: Join local cleanup drives and mosquito awareness programs."
+      ],
+      "image": "https://images.pexels.com/photos/4769464/pexels-photo-4769464.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "title": "Recognizing High-Risk Sites in Your Community",
+      "content": "Be aware of common breeding sites in your area to address them effectively.",
+      "riskSites": [
+        "Sewage and Drainage Canals: Often neglected, these areas are perfect breeding sites.",
+        "Waste Disposal Sites: Trash and debris trap water, creating hidden risks.",
+        "Agricultural Fields: Irrigation can lead to temporary water accumulation."
+      ],
+      "image": "https://images.pexels.com/photos/4778670/pexels-photo-4778670.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "title": "Fast Facts About Mosquito-Borne Diseases",
+      "content": "Learn about common diseases spread by mosquitoes and their impacts.",
+      "diseases": [
+        { "name": "Dengue", "details": "Affects millions annually; symptoms include fever, rash, and joint pain." },
+        { "name": "Malaria", "details": "Caused by Plasmodium parasites, transmitted via mosquito bites." },
+        { "name": "Zika Virus", "details": "Can cause birth defects if contracted during pregnancy." }
+      ],
+      "image": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Did you know? Female mosquitoes are the only ones that bite! They need blood to produce eggs, while male mosquitoes feed on nectar.",
+      "image": "https://images.pexels.com/photos/27671655/pexels-photo-27671655/free-photo-of-a-woman-wearing-a-mask-is-reading-a-book.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    }
+  ]
+}

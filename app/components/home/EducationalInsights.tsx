@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Card } from "react-native-paper";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import theme from "../../infrastructure/theme";
+import Text from "../Text";
 
 import { educationalInsights } from "../../services/sites/mock/educationalInsights.json";
 

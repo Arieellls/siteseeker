@@ -1,4 +1,3 @@
-import React from "react";
 import { Text } from "react-native";
 
 const capitalizeFirstLetter = (text: string) => {
@@ -11,16 +10,16 @@ export const formatStatus = (status: string) => {
 
   switch (status) {
     case "confirmed":
-      statusColor = "green";
+      statusColor = "#358e64";
       break;
     case "resolved":
-      statusColor = "blue";
+      statusColor = "#3c6799";
       break;
     case "unconfirmed":
-      statusColor = "orange";
+      statusColor = "#9c6630";
       break;
     default:
-      statusColor = "gray";
+      statusColor = "#B0B0B0";
   }
 
   const formattedStatus = capitalizeFirstLetter(status);

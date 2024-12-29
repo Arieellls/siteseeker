@@ -15,11 +15,12 @@ const colors = {
   },
   bg: {
     primary: "#FFFFFF",
-    secondary: "#F1F1F1",
+    secondary: "#121212",
+    header: "#282828",
   },
   text: {
     primary: "#262626",
-    secondary: "#757575",
+    secondary: "#74716d",
     disabled: "#9C9C9C",
     inverse: "#FFFFFF",
     error: "#D0421B",
@@ -27,4 +28,21 @@ const colors = {
   },
 };
 
+// app/infrastructure/theme.js
+export const lightTheme = {
+  colors: {
+    background: "#fff",
+    text: "#000",
+  },
+};
+
+export const darkTheme = {
+  colors: {
+    background: "#000",
+    text: "#fff",
+  },
+};
+
 export default colors;
+lightTheme;
+darkTheme;

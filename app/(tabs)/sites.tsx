@@ -1,5 +1,6 @@
 import { Text } from "react-native";
+import MapsPage from "../pages/sites";
 
-export default function Settings() {
-  return <Text>Settings</Text>;
+export default function Sites() {
+  return <MapsPage />;
 }

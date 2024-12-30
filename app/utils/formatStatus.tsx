@@ -15,7 +15,7 @@ export const formatStatus = (status: string) => {
     case "resolved":
       statusColor = "#3c6799";
       break;
-    case "unconfirmed":
+    case "unresolved":
       statusColor = "#9c6630";
       break;
     default:

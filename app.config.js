@@ -36,6 +36,13 @@ export default {
           RNMapboxMapsDownloadToken: process.env.RN_MAPBOX_MAPS_DOWNLOAD_TOKEN,
         },
       ],
+      [
+        "expo-location",
+        {
+          locationAlwaysAndWhenInUsePermission:
+            "Allow Siteseeker to use your location.",
+        },
+      ],
     ],
     extra: {
       eas: {

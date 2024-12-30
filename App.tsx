@@ -7,11 +7,15 @@ import {
   useTheme,
 } from "./app/infrastructure/theme/ThemeContext";
 
+import { LocationProvider } from "./app/services/location/location.context";
+
 export default function App() {
   return (
-    <ThemeProvider>
-      <MainApp />
-    </ThemeProvider>
+    <LocationProvider>
+      <ThemeProvider>
+        <MainApp />
+      </ThemeProvider>
+    </LocationProvider>
   );
 }
 

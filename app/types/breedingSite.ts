@@ -6,7 +6,7 @@ export type BreedingSite = {
   description: string;
   detectionTime: Date;
   userId: string;
-  status: "unconfirmed" | "confirmed" | "resolved";
+  status: string;
   createdAt: Date;
   updatedAt: Date;
 };

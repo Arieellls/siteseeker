@@ -26,6 +26,16 @@ const colors = {
     error: "#D0421B",
     success: "#138000",
   },
+  button: {
+    primary: {
+      bg: "#4A90E2",
+      text: "#FFFFFF",
+    },
+    secondary: {
+      bg: "#5D6CC6",
+      text: "#FFFFFF",
+    },
+  },
 };
 
 // app/infrastructure/theme.js

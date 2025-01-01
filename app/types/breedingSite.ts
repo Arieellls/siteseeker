@@ -9,8 +9,9 @@ export type BreedingSite = {
   status: string;
   createdAt: Date;
   updatedAt: Date;
+  accuracy: number;
+  classification: string;
 };
 
-// Add a default export to satisfy the framework requirement
 const defaultExport = {};
 export default defaultExport;

@@ -17,7 +17,7 @@ const createScreenOptions = ({ route }: { route: { name: string } }) => {
   return {
     tabBarIcon: ({ size, color }: { size: number; color: string }) =>
       iconName ? <Ionicons name={iconName} size={size} color={color} /> : null,
-    tabBarActiveTintColor: "tomato",
+    tabBarActiveTintColor: "#4A90E2",
     tabBarInactiveTintColor: "gray",
     headerStyle: { backgroundColor: theme.header },
     tabBarStyle: { backgroundColor: theme.background },

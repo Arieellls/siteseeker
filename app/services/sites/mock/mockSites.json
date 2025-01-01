@@ -9,7 +9,9 @@
     "userId": "user123",
     "status": "unresolved",
     "createdAt": "2024-12-28T10:00:00Z",
-    "updatedAt": "2024-12-28T10:00:00Z"
+    "updatedAt": "2024-12-28T10:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "2",
@@ -21,7 +23,9 @@
     "userId": "user456",
     "status": "unresolved",
     "createdAt": "2024-12-27T14:00:00Z",
-    "updatedAt": "2024-12-27T15:00:00Z"
+    "updatedAt": "2024-12-27T15:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "3",
@@ -33,7 +37,9 @@
     "userId": "user789",
     "status": "resolved",
     "createdAt": "2024-12-26T09:00:00Z",
-    "updatedAt": "2024-12-27T16:00:00Z"
+    "updatedAt": "2024-12-27T16:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "4",
@@ -45,7 +51,9 @@
     "userId": "user321",
     "status": "unresolved",
     "createdAt": "2024-12-25T11:00:00Z",
-    "updatedAt": "2024-12-25T11:00:00Z"
+    "updatedAt": "2024-12-25T11:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "5",
@@ -57,19 +65,23 @@
     "userId": "user654",
     "status": "resolved",
     "createdAt": "2024-12-24T13:00:00Z",
-    "updatedAt": "2024-12-25T14:30:00Z"
+    "updatedAt": "2024-12-25T14:30:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "6",
     "capturedImage": "https://images.pexels.com/photos/5179560/pexels-photo-5179560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "latitude": 15.318438,
+    "latitude": 15.318438, 
     "longitude": 119.984550,
     "description": "A pool of water formed by a leaking pipe.",
     "detectionTime": "2024-12-23T15:00:45Z",
     "userId": "user987",
     "status": "resolved",
     "createdAt": "2024-12-23T14:00:00Z",
-    "updatedAt": "2024-12-24T08:00:00Z"
+    "updatedAt": "2024-12-24T08:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   },
   {
     "id": "7",
@@ -81,6 +93,8 @@
     "userId": "user111",
     "status": "unresolved",
     "createdAt": "2024-12-22T16:00:00Z",
-    "updatedAt": "2024-12-22T16:00:00Z"
+    "updatedAt": "2024-12-22T16:00:00Z",
+    "classification": "mosquito_breeding_site",
+    "accuracy": 0.9
   }
 ]

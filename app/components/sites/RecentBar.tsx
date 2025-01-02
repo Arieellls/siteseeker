@@ -1,6 +1,6 @@
 import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import styled from "styled-components/native";
-import BreedingCard from "./SiteTile";
+import BreedingCard from "../SiteTile";
 import mockSites from "../../services/sites/mock/mockSites.json";
 import { BreedingSite } from "../../types/breedingSite";
 

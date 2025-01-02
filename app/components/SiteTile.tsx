@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { BreedingSite } from "../../types/breedingSite";
+import { BreedingSite } from "../types/breedingSite";
 import { Card } from "react-native-paper";
 import { Text, View } from "react-native";
-import theme from "../../infrastructure/theme";
-import { formatStatus } from "../../utils/formatStatus";
+import theme from "../infrastructure/theme";
+import { formatStatus } from "../utils/formatStatus";
 
 const SiteCard = styled(Card)`
   background-color: white;
@@ -34,6 +34,8 @@ export default function BreedingCard({
     status: "unconfirmed",
     createdAt: new Date(),
     updatedAt: new Date(),
+    classification: "mosquito",
+    accuracy: 89.9,
   },
 }: {
   site: BreedingSite;

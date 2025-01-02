@@ -39,3 +39,5 @@ const styles = StyleSheet.create({
     color: "gray",
   },
 });
+
+export default MapCallout;

@@ -2,7 +2,7 @@ import { View } from "react-native";
 import styled from "styled-components";
 import { theme } from "../../infrastructure/theme";
 import Greetings from "./Greetings";
-import BreedingCard from "../sites/SiteTile";
+import BreedingCard from "../SiteTile";
 import Content from "../sites/Content";
 
 const Container = styled(View)`

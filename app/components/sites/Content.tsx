@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import theme from "../../infrastructure/theme";
-import BreedingCard from "./SiteTile";
+import BreedingCard from "../SiteTile";
 import styled from "styled-components";
 import { RecentBar } from "./RecentBar";
 import EducationalInsights from "../home/EducationalInsights";

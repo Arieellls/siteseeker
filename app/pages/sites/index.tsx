@@ -55,12 +55,16 @@ export default function MapsPage() {
     setSelectedSite(null);
   };
 
+  useEffect(() => {
+    Mapbox.setAccessToken(process.env.MAPBOX_ACCESS_TOKEN || "");
+  }, []);
+
   return (
     <View style={styles.page}>
       <View style={styles.container}>
         <Mapbox.MapView
           style={styles.map}
-          styleURL="mapbox://styles/mapbox/satellite-streets-v12"
+          styleURL="mapbox://styles/mapbox/satellite-streets-v11"
           onPress={closePopup}
         >
           {userLocation && (

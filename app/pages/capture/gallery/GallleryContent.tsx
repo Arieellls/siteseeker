@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 import cover from "../../../../assets/folder-cover.png";
 import { Title } from "react-native-paper";
+import Graph from "./ContributionGraph";
+import LineGraph from "./LineChart";
 
 const SampleImage1 =
   "https://images.pexels.com/photos/29022274/pexels-photo-29022274/free-photo-of-tranquil-tree-lined-pathway-in-autumn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -63,11 +65,13 @@ const ContainerTitle = styled(Title)`
 export default function GalleryContent() {
   return (
     <ContentContainer>
+      <Graph />
       <ContainerTitle>Your Capture</ContainerTitle>
       <UserCaptureContainer>
         <ImageFolder title={"Artificial Container"} firstImage={SampleImage1} />
         <ImageFolder title={"Natural Container"} firstImage={SampleImage2} />
       </UserCaptureContainer>
+      <LineGraph />
     </ContentContainer>
   );
 }

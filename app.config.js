@@ -43,6 +43,12 @@ export default {
             "Allow Siteseeker to use your location.",
         },
       ],
+      [
+        "react-native-vision-camera",
+        {
+          cameraPermissionText: "Siteseeker needs access to your Camera.",
+        },
+      ],
     ],
     extra: {
       eas: {

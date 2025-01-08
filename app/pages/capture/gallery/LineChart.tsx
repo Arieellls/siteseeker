@@ -1,4 +1,11 @@
-import { useWindowDimensions, ScrollView, Text, View } from "react-native";
+import React, { useState } from "react";
+import {
+  useWindowDimensions,
+  ScrollView,
+  Text,
+  View,
+  TouchableOpacity,
+} from "react-native";
 import { LineChart } from "react-native-chart-kit";
 import styled from "styled-components";
 
@@ -50,7 +57,7 @@ const ClassificationContainer = styled(View)`
   justify-content: center;
 `;
 
-const ClassificationItem = styled(View)`
+const ClassificationItem = styled(TouchableOpacity)`
   flex-direction: row;
   align-items: center;
   margin-right: 15px;
@@ -70,6 +77,15 @@ const LegendBox = styled(View)<LegendBoxProps>`
 export default function LineGraph() {
   const { width: screenWidth } = useWindowDimensions();
   const chartWidth = Math.max(screenWidth, data.labels.length * 70);
+  const [selectedDataset, setSelectedDataset] = useState<number | null>(null);
+
+  const filteredData = {
+    ...data,
+    datasets:
+      selectedDataset !== null
+        ? [data.datasets[selectedDataset]]
+        : data.datasets,
+  };
 
   return (
     <GraphWrapper>
@@ -84,8 +100,8 @@ export default function LineGraph() {
           style={{
             borderRadius: 16,
           }}
-          data={data}
-          width={chartWidth} // Dynamically set width
+          data={filteredData}
+          width={chartWidth}
           height={256}
           verticalLabelRotation={0}
           chartConfig={{
@@ -114,14 +130,17 @@ export default function LineGraph() {
       </ScrollView>
 
       <ClassificationContainer>
-        <ClassificationItem>
-          <LegendBox bgColor="rgba(0, 0, 255, 1)" />
-          <Text>Artificial Container</Text>
-        </ClassificationItem>
-        <ClassificationItem>
-          <LegendBox bgColor="rgba(255, 0, 0, 1)" />
-          <Text>Natural Container</Text>
-        </ClassificationItem>
+        {data.datasets.map((dataset, index) => (
+          <ClassificationItem
+            key={index}
+            onPress={() =>
+              setSelectedDataset(index === selectedDataset ? null : index)
+            }
+          >
+            <LegendBox bgColor={dataset.color(1)} />
+            <Text>{dataset.title}</Text>
+          </ClassificationItem>
+        ))}
       </ClassificationContainer>
     </GraphWrapper>
   );
